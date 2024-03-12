@@ -1,0 +1,54 @@
+/* Custom styles for the logo and text */
+.logo {
+  height: 50px; /* Adjust as necessary for your design */
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-size: 1.5em; /* Adjust as necessary for your design */
+  vertical-align: middle;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.device-mockup {
+  height: 300px; /* Adjust to your preference */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px; /* Or to match your design */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin: auto; /* This will help in centering if the image is not full width */
+  overflow: hidden;
+}
+
+/* Enhanced backgrounds for different sections */
+#home {
+  background-color: #f0f8ff; /* Light azure to keep it airy and light */
+}
+
+#about {
+  background-color: #ffffff; /* Keep it classic with white, add a shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#services {
+  background: linear-gradient(to right, #ffffff, #f7f7f7); /* Subtle gradient */
+}
+
+/* Specific styles for the Products section */
+#products {
+  background-color: #ffffff;
+  padding: 4rem 0; /* Ample padding for spacious feel */
+  margin-bottom: 50px; /* Adjust this value as per your requirement for separation */
+}
+
+/* Specific styles for the Contact section */
+#contact {
+  background-color: #ffffff; /* Plain white background for the Contact section */
+}
+
+/* Ensuring no padding for full-width containers if needed */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 100%;
+}
